@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		994E278C1E97F59900B5FD59 /* UsersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994E278B1E97F59900B5FD59 /* UsersVC.swift */; };
+		994E278E1E97FC7C00B5FD59 /* userCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994E278D1E97FC7C00B5FD59 /* userCell.swift */; };
+		994E27901E9807A900B5FD59 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994E278F1E9807A900B5FD59 /* User.swift */; };
 		99BED75E1E959F000001C5A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BED75D1E959F000001C5A2 /* AppDelegate.swift */; };
 		99BED7601E959F000001C5A2 /* CameraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BED75F1E959F000001C5A2 /* CameraVC.swift */; };
 		99BED7631E959F000001C5A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99BED7611E959F000001C5A2 /* Main.storyboard */; };
@@ -26,6 +29,9 @@
 /* Begin PBXFileReference section */
 		0F6F28105DE71A1FEE118726 /* Pods_SampleChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		546A25D3A402EF65F9C2FB68 /* Pods-SampleChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-SampleChat/Pods-SampleChat.release.xcconfig"; sourceTree = "<group>"; };
+		994E278B1E97F59900B5FD59 /* UsersVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersVC.swift; sourceTree = "<group>"; };
+		994E278D1E97FC7C00B5FD59 /* userCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = userCell.swift; sourceTree = "<group>"; };
+		994E278F1E9807A900B5FD59 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		99BED75A1E959F000001C5A2 /* SampleChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99BED75D1E959F000001C5A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		99BED75F1E959F000001C5A2 /* CameraVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraVC.swift; sourceTree = "<group>"; };
@@ -111,6 +117,7 @@
 				99BED7731E95A40F0001C5A2 /* AAPLPreviewView.m */,
 				99BED77C1E95D9000001C5A2 /* RoundedTextField.swift */,
 				99BED7801E9609BB0001C5A2 /* RoundedButton.swift */,
+				994E278D1E97FC7C00B5FD59 /* userCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -122,6 +129,7 @@
 				99BED7711E95A40F0001C5A2 /* AAPLCameraViewController.m */,
 				99BED75F1E959F000001C5A2 /* CameraVC.swift */,
 				99BED77E1E9605540001C5A2 /* LoginVC.swift */,
+				994E278B1E97F59900B5FD59 /* UsersVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -139,6 +147,7 @@
 			children = (
 				99E68A471E97215300681FF7 /* AuthService.swift */,
 				99E68A491E97329200681FF7 /* DataService.swift */,
+				994E278F1E9807A900B5FD59 /* User.swift */,
 			);
 			name = Services;
 			sourceTree = "<group>";
@@ -283,7 +292,10 @@
 				99BED75E1E959F000001C5A2 /* AppDelegate.swift in Sources */,
 				99BED77F1E9605540001C5A2 /* LoginVC.swift in Sources */,
 				99BED7741E95A40F0001C5A2 /* AAPLCameraViewController.m in Sources */,
+				994E278C1E97F59900B5FD59 /* UsersVC.swift in Sources */,
+				994E278E1E97FC7C00B5FD59 /* userCell.swift in Sources */,
 				99BED7811E9609BB0001C5A2 /* RoundedButton.swift in Sources */,
+				994E27901E9807A900B5FD59 /* User.swift in Sources */,
 				99BED77D1E95D9000001C5A2 /* RoundedTextField.swift in Sources */,
 				99BED7751E95A40F0001C5A2 /* AAPLPreviewView.m in Sources */,
 				99E68A481E97215300681FF7 /* AuthService.swift in Sources */,
